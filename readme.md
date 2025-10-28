@@ -1,9 +1,12 @@
+安装环境
+(cpu环境)
 tqdm
-# 2) 只用官方渠道装 PyTorch + CUDA（避免混源导致的 OMP 冲突）
+
 conda install -y -c pytorch -c nvidia pytorch torchvision torchaudio pytorch-cuda=12.1
 
-# 3) 常用科学包走 conda（保持同一堆栈来源）
 conda install -y numpy pandas matplotlib scikit-learn
+
+建一个train文件夹
 
 把kaggle的train数据放到train里
 
